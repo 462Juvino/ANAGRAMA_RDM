@@ -1,0 +1,34 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-position:top; 
+	background-color:#CCCCCC;
+	color:#000;
+}
+a, a:visited{
+	color:156cee;
+	cursor:pointer;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration:none;
+	color: #e60a3c;
+}
+.ident{
+	margin-left:15px;
+}
+.ident2{
+	margin-left:15px;
+}
+div{
+	margin-top:5px;
+}
+
+div ident2{
+	margin-top:20px;
+}
+.identacaoTexto{
+	margin-left:18px;
+	margin-top:-15px;"
+}

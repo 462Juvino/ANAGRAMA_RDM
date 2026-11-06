@@ -1,0 +1,423 @@
+/* DIVs beneath a collapsed node should not display. Use important to make this rule override.
+DIVs beneath an expanded node should display.*/
+*{
+	margin: 0;
+	padding: 0;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	}
+DIV.cnode DIV, .hidden, DIV.cnavbucket DIV  {
+	display : none!important;
+}
+
+DIV.xnode DIV  {
+	display : block;
+}
+
+NOBR.cnode NOBR, .hidden, NOBR.cnavbucket NOBR  {
+	display : none!important;
+}
+
+NOBR.xnode NOBR  {
+	display : block;
+	
+}
+DIV.nospace{	
+	font-size:12px;
+	margin-top:7px;
+	margin-left:15px;
+	
+}
+DIV.nospace a{
+	color:#20C;
+}
+NOBR  {
+	display : block;
+}
+
+/* Overall properties.
+Text is the class for the right hand reading area.
+Local is the class for the nav bar under the reading area.
+Nav is the class for the main navigation area.*/
+BODY.text  {
+	margin : 2pt;
+	margin-left : 8pt;
+	background : white;
+	font-size : small;
+}
+
+H1.title  {
+	font-size : x-large;
+	text-align : center;
+}
+
+.textloading  {
+	margin-top : 45%;
+	text-align : center;
+}
+
+BODY.local  {
+	background-image: url("$$$SLF$$$images/logo.gif");
+	background-repeat: no-repeat;
+	background-color: #406379;
+	margin: 0px;
+}
+
+.localcreatedby {
+	color : #330066;
+	font-family : Tahoma, Verdana, Arial, Helvetica, sans-serif;
+        font-size : xx-small;
+        text-align : right;
+}
+
+.localtoolbar {
+	background : #330066;
+}
+
+BODY.nav  {
+	background : #cbd9e2;
+	color : black;
+}
+
+DIV.navchoose  {
+	margin-top : 3pt;
+	margin-left : 3pt;
+}
+
+.nav HR  {
+	margin-bottom : 9pt;
+}
+
+.navchoose DIV  {
+	font-family : Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	margin-top : 2pt;
+}
+
+.navchoose H4  {
+	font-family : Tahoma, Verdana, Arial, Helvetica, sans-serif;
+}
+
+.navtab A  {
+	color : #156cee;
+}
+
+.navtab  {
+	margin-bottom : 2pt;
+	margin-left : 3pt;
+}
+
+.navtoc  {
+	font-family : Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size : smaller;
+	margin-left : 3pt;
+}
+
+.navtoc SPAN  {
+	cursor:auto;
+}
+
+SPAN.navtree  {
+	font-family : Symbol;
+	width : 1.5em;
+}
+
+NOBR SPAN.navtree  {
+	font-family : Symbol;
+	width : 1.5em;
+}
+
+NOBR NOBR SPAN.navtree  {
+	font-family : Symbol;
+	width : 3em;
+}
+
+NOBR NOBR NOBR SPAN.navtree  {
+	font-family : Symbol;
+	width : 4.5em;
+}
+
+.navtoc A.navtree  {
+	color : #156cee;
+}
+
+SPAN.navtreehover  {
+	color : red;
+	font-family : Symbol;
+	width : 1.5em;
+}
+
+A.navtreehover  {
+	color : red;
+	font-family : Symbol;
+}
+
+.navtoc DIV  {
+	margin-left : 0em;
+}
+
+.navtoc DIV DIV  {
+	margin-left : 1em;
+}
+
+.navtoc NOBR  {
+	margin-left : 0em;
+}
+
+.navtoc NOBR NOBR  {
+	margin-left : 1em;
+}
+
+.navtoc .hover  {
+	color : red;
+	text-decoration : underline;
+}
+
+.navindex .hover  {
+	color : red;
+}
+
+.navtoc A:link, .navtoc A:visited  {
+	color : black;
+	text-decoration : underline;
+	font-family : Tahoma, Verdana, Arial, Helvetica, sans-serif;
+}
+
+.navselect  {
+	margin-top : 3pt;
+	margin-right : 3pt;
+	margin-bottom : 3pt;
+	margin-left : 3pt;
+	font-family : Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size : smaller;
+	cursor:auto;
+}
+
+.navindex  {
+	font-family : Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size : smaller;
+	margin-left : 3pt;
+}
+
+.navbucket  {
+	margin-top : 5pt;
+	margin-bottom : 3pt;
+	text-decoration : underline;
+	font-family : Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	cursor:auto;
+	color : black;
+}
+
+.cnavbucket  {
+	margin-top : 5pt;
+	margin-bottom : 3pt;
+	text-decoration : underline;
+	font-family : Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	cursor:auto;
+	color : black;
+}
+
+.navindex1  {
+	font-family : Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	margin-top : 1pt;
+	margin-bottom : 1pt;
+	margin-left : 3pt;
+	text-decoration : none;
+	cursor:auto;
+	color : black;
+}
+
+.navindex2  {
+	font-family : Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	margin-top : 1pt;
+	margin-bottom : 1pt;
+	margin-left : 8pt;
+	text-decoration : none;
+	cursor:auto;
+	color : black;
+}
+
+.navindex3  {
+	font-family : Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	margin-top : 1pt;
+	margin-bottom : 1pt;
+	margin-left : 13pt;
+	text-decoration : none;
+	cursor:auto;
+	color : black;
+}
+
+.navtts  {
+	margin-top : 3pt;
+	margin-left : 3pt;
+	margin-bottom : 3pt;
+	font-family : Tahoma, Verdana, Arial, Helvetica, sans-serif;
+}
+
+.navttsenabled  {
+	margin : 0pt;
+	cursor:auto;
+}
+
+.localprev  {
+	margin : 0pt;
+	padding : 0pt;
+	display : inline;
+	cursor:auto;
+}
+
+.localnext  {
+	margin : 0pt;
+	padding : 0pt;
+	display : inline;
+	cursor:auto;
+}
+
+.localfeedback  {
+	margin : 0pt;
+	padding : 0pt;
+	display : inline;
+	cursor:auto;
+}
+
+A.localtext  {
+	color : #156cee;
+}
+
+.text  {
+	color : black;
+	font-family : Tahoma, Arial, Verdana, Helvetica, sans-serif;
+}
+
+.enter  {
+	color : black;
+	font-family : Tahoma, Verdana, Arial, Helvetica, sans-serif;
+}
+
+BODY.enter  {
+	background-color : silver;
+}
+
+.enter_selection  {
+	background : silver;
+}
+
+.enter DIV  {
+	padding : 3pt;
+	margin : 3pt;
+	height : 350pt;
+	width : 320pt;
+	position : absolute;
+	left : 10pt;
+}
+
+.comment  {
+	color : black;
+	background : silver;
+	font-family : Tahoma, Verdana, Helvetica, sans-serif;
+}
+
+H2.SECT2  {
+	color : #FFFFFF;
+	font-size : medium;
+	padding-left : 2px;
+	padding-top : 2px;
+	padding-bottom : 2px;
+	padding-right : 200px;
+}
+
+H1.SECT1  {
+	font-size : medium;
+}
+
+DT.local, DT.nav  {
+	font-weight : bold;
+}
+
+H3.SECT3  {
+	color : #FFFFFF;
+	font-size : small;
+	padding-left : 2px;
+	padding-top : 2px;
+	padding-bottom : 2px;
+	padding-right : 200px;
+}
+
+H1  {
+	font-size : large;
+	color : #362164;
+	font-weight : bold;
+}
+
+
+.footnote {
+	border: solid 1px black;
+	overflow: auto;
+	background: #FFFFCC;
+	font-family: sans-serif;
+	font-size: .8em;
+	position: absolute;
+	left: 0;
+	top: 0;
+	padding: 2px;
+	width: 300px;
+	display:none;
+	z-index: 10000;
+}
+
+.footnote p {
+	margin: 0px;
+}
+
+.footnoteref {
+	font-size: .7em;
+	vertical-align: top;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* This is just for kicks */
+#dropshadow {
+	background-color: gray;
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: none;
+	z-index: 1;
+	font-size: .01em;
+	filter:alpha(opacity=50);
+	-moz-opacity:0.5;
+	opacity: 0.5;
+}
+element{
+cursor:auto;
+}
+.style3 {
+	font-family: Verdana;
+	font-size: 10px;
+	color: #595959;
+	font-weight: bold;
+}
+.newstyle{ font-family:Verdana;
+	font-size: 14px;
+	font-weight:bold;
+	color: #595959;
+}
+.style4 {
+	font-family: Verdana;
+	font-size: 10px;
+	color: #8B0000;
+	font-weight: bold;
+}
+.newstyle1{ font-family:Verdana;
+	font-size: 14px;
+	font-weight:bold;
+	color: #8B0000;
+}
+body{
+	background-color:#efefef;
+}
+
+
+
+
+
