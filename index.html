@@ -9,19 +9,19 @@
   <div class="shell">
     <header class="topbar">
       <a class="brand" href="https://462juvino.github.io/"><span class="brand-mark">A</span><span>RDM <span style="color:var(--cyan)">ANAGRAMA LIVE</span></span></a>
-      <nav class="toplinks"><a class="button-link" id="host-link" href="./painel.html">Painel Host</a><a class="button-link" href="https://462juvino.github.io/">RDM Studio</a></nav>
+      <nav class="toplinks"><a class="button-link" id="host-link" href="./painel.html" target="_blank" rel="noopener noreferrer">Painel Host</a><a class="button-link" href="https://462juvino.github.io/">RDM Studio</a></nav>
     </header>
     <main class="page">
-      <section class="intro"><img class="game-cover" src="./assets/anagrama-cover.jpg" alt="Ilustração do desafio Anagrama Live" width="132" height="132"><div class="intro-copy"><span class="eyebrow">DESAFIO AO VIVO</span><h1>Descubra as palavras escondidas</h1><p>Use as letras embaralhadas para formar palavras. O chat participa e cada acerto revela quem encontrou a resposta.</p></div><div class="status-row"><span class="status-chip"><i class="dot" id="controller-dot"></i><span id="controller-label">Conectando sala…</span></span><span class="status-chip" id="mode-label">TikTok</span></div></section>
+      <section class="intro"><img class="game-cover" src="./assets/anagrama-cover.jpg" alt="Ilustração do desafio Anagrama Live" width="132" height="132"><div class="intro-copy"><span class="eyebrow">RODADA AO VIVO</span><h1>Anagrama Live</h1></div><div class="status-row"><span class="status-chip"><i class="dot" id="controller-dot"></i><span id="controller-label">Conectando sala…</span></span><span class="status-chip" id="mode-label">TikTok</span></div></section>
       <div class="game-grid">
         <section class="panel board" aria-label="Tabuleiro do Anagrama">
           <div class="board-head"><div><div class="eyebrow">RODADA ATUAL</div><p class="progress-copy"><strong id="progress-count">0 / 0</strong> palavras descobertas</p><div class="progress-track" role="progressbar" aria-label="Progresso da rodada"><span id="progress-bar"></span></div></div><div class="timer" id="timer"><small>TEMPO</small><strong id="clock">--:--</strong></div></div>
           <div class="letter-stage"><div class="stage-label">Letras disponíveis</div><div class="letters" id="letters"><span class="empty">Aguardando uma nova rodada</span></div></div>
           <div class="eyebrow" style="margin:0 0 10px">PALAVRAS A DESCOBRIR</div><div class="answer-grid" id="answers"><div class="empty">O Host iniciará o desafio em breve.</div></div>
           <p class="feedback" id="game-feedback" role="status"></p>
-          <div class="manual-wrap"><form class="manual" id="manual-form"><input id="manual-word" maxlength="28" autocomplete="off" placeholder="Teste uma palavra"><button class="button primary small" type="submit">Enviar teste</button></form><p class="notice">Campo de teste para o Host; os participantes enviam as respostas no chat da live.</p></div>
+
         </section>
-        <aside class="sidebar"><section class="panel side-card"><h2 class="side-title">Tentativas incorretas <small id="attempt-count">0</small></h2><div class="attempts" id="attempts"><div class="empty">Ainda não há tentativas.</div></div></section><section class="panel side-card"><h2 class="side-title">Como jogar</h2><p class="notice" style="margin-top:0">Forme uma palavra com as letras mostradas e envie somente a palavra no chat. Acentos não alteram a resposta. Palavras já tentadas não entram novamente na fila.</p><p class="notice">Para usar TikTok, abra a cena no computador com TikFinity. Para YouTube, conecte o Streamer.bot nesse mesmo computador.</p></section></aside>
+        <aside class="sidebar"><section class="panel side-card"><h2 class="side-title">Tentativas incorretas <small id="attempt-count">0</small></h2><div class="attempts" id="attempts"><div class="empty">Ainda não há tentativas.</div></div></section></aside>
       </div>
     </main>
     <footer class="footer">Anagrama Live · RDM Studio · <span id="room-label"></span></footer>
